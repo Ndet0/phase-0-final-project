@@ -3,44 +3,103 @@
     <head>
         <title>portfolio</title>
         <meta charset="UTF-8">
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+        <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script>
-            function showsidebar(){
-                const sidebar=document.querySelector('.sidebar')
-                sidebar.style.display='flex'
-            }
-            function hidesidebar(){
-                const sidebar=document.querySelector('.sidebar')
-                sidebar.style.display='none'
-            }
-        </script>
     </head>
     <body>
-        <h1>Full Stack Developer</h1>
-        <nav class="navbar">
-            <ul> 
-                <h3>Welcome To My portfolio</h3>
-                <li ><a href="#">Home</a></li>
-                 <li ><a href="#">About</a></li>
-                  <li ><a href="#">Proojects</a></li>
-                   <li ><a href="#">Socials</a></li>
-                   <li ><a href="#">github</a></li>
-                   <li class="menu" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" >
-<path d="M9 11h11v2H9zM9 6h11v2H9zM9 16h11v2H9zM4 5.5h3v3H4zM4 10.5h3v3H4zM4 15.5h3v3H4z"></path>
-</svg></a></li>
+      <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class='bx  bxs-home'  style='color:#000000'></i> 
+                        <span class="nav-item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <i class='bxr  bx-user-hexagon bx-rotate-90 bx-flip-horizontal'></i> 
+                        <span class="nav-item">About me</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                      <i class='bxr  bx-network-chart bx-rotate-90 bx-flip-horizontal'></i> 
+                        <span class="nav-item">My Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <i class='bx  bx-at'  style='color:#000000'></i> 
+                        <span class="nav-item">Socials</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bxl  bx-github'></i> 
+                        <span class="nav-item">github</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                   <i class='bx  bx-message'  style='color:#000000'></i> 
+                        <span class="nav-item">Contact</span>
+                    </a>
+                </li>
             </ul>
-                   <ul class="sidebar">
-<li onclick=hidesidebar()><a href="#"><svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" >
-<path d="m7.76 14.83-2.83 2.83 1.41 1.41 2.83-2.83 2.12-2.12.71-.71.71.71 1.41 1.42 3.54 3.53 1.41-1.41-3.53-3.54-1.42-1.41-.71-.71 5.66-5.66-1.41-1.41L12 10.59 6.34 4.93 4.93 6.34 10.59 12l-.71.71z"></path>
-</svg></a>
-                    <li ><a href="#">Home</a></li>
-                     <li ><a href="#">About</a></li>
-                      <li ><a href="#">Projects</a></li>
-                       <li ><a href="#">Socials</a></li>
-            </ul>
-            </nav>
-             <h2>Hey</h2>
-        <h2>Im Festus Kisoi</h2>
+      </div>
+      <div class="main">
+        <h1>Full Stack Web Developer</h1>
+        <br/>
+        <div class="user">
+             <h2>Welcome to my portfolio<p>Im the guy you buzz when you got bugs</p></h2>
+             <img src="prof.jpeg" alt="me" class="user-img">
+        <p>Hi! I’m Festus Ndeto, a full‑stack developer fueled by curiosity and hands‑on problem-solving. With expertise in JavaScript, HTML, and CSS, I build end‑to‑end applications that are both elegant and robust—from crafting responsive interfaces to powering back‑ends and deploying scalable solutions.Feel free to explore my work—I’m excited to collaborate or dive into new challenges together.</p>
+        </div>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h2>About me</h2>
+                    <a href="#">Education</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Hobbies</a>
+                </div>
+                <div class="footer-heading footer-2">
+                    <h2>Socials</h2>
+                        <a href="https://www.facebook.com">
+                             <i class='bxl  bx-facebook'  style='color:#000000'></i> 
+                        <span class="nav-item">Facebook</span>
+                    </a>
+                        </a>
+                            <a href="https://www.twitter.com">
+                                 <i class='bxl  bx-twitter-x'  style='color:#000000'></i> 
+                        <span class="nav-item">Twitter</span>
+                    </a>
+                            </a>
+                                <a href="https://www.instagram.com">
+                                 <i class='bxl  bx-instagram'  style='color:#000000'></i> 
+                        <span class="nav-item">Instagram</span>
+                    </a>
+                                </a>
+                                    <a href="https://www.linkedin.com" >
+                                         <i class='bxl  bx-linkedin'  style='color:#000000'></i> 
+                        <span class="nav-item">Linkedin</span>
+                    </a>
+                                    </a>
+                                        <a href="https://www.github.com" >
+                                             <i class='bxl  bx-github'></i> 
+                        <span class="nav-item">github</span>
+                    </a>
+                                        </a>
+                </div>
+            </div>
+                <div class="footer-email-form">
+                    <h2>Input your email and we'll get back to you, or reach out on our Socials</h2>
+                    <input type="email" placeholder="Enter your email" id="footer-email">
+                    <input type="submit" value="reach out" id="footer-email-btn">
+             <p>Thank you for visiting</p>
+            <p>&copy; 2025 my web page</p>/
+            </div>
     </body>
 </html>
