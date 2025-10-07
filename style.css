@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    overflow: hidden;
 }
 body{
     margin:0px;
@@ -31,7 +32,7 @@ body{
 .navbar a:hover{
     color:black;
     background-color:lightgrey;
-    border-radius:20px;
+    border-radius:50px;
     cursor:pointer;
     padding:10px;
     transition: 250ms ease;
@@ -48,8 +49,14 @@ body{
     margin-bottom:50px;
     padding:20px;
 }
+.container h2{
+    margin-left:50px;
+    margin-top:50px;
+    font-size:30px;
+}
 .container p{
     font-size: 20px;
+    width:500px;
 }
 .user{
     display:flex;
@@ -59,9 +66,13 @@ body{
     justify-content: space-between;
 }
 .user-img{
-    width:300px;
-    border-radius:300px;
+    width:500px;
+    border-radius:600px;
 }
 .user-p{
-    margin-left:120px;
+    margin-left:720px;
+}
+#socials{
+    background-color: lightgrey;
+    border-radius: 20px;;
 }
